@@ -1,0 +1,180 @@
+{% macro render_node(node, current_path) -%}
+    {% set has_children = node.children | length > 0 %}
+    {% set is_current = current_path == node.url_path %}
+    {% set is_in_branch = current_path and (current_path == node.url_path or current_path.startswith(node.url_path ~ '/')) %}
+    <li class="tree-node level-{{ node.path_slugs | length }}" data-tree-node data-search-text="{{ node.search_blob }}">
+        {% if has_children %}
+            <button class="tree-toggle" type="button" data-tree-toggle aria-expanded="{{ 'true' if is_in_branch else 'false' }}">
+                <span class="tree-toggle__label">
+                    {% if node.code %}<span class="tree-code">{{ node.code }}</span>{% endif %}
+                    <span class="tree-title">{{ node.title }}</span>
+                </span>
+                <span class="tree-chevron" aria-hidden="true"></span>
+            </button>
+            <ul class="tree-list {% if is_in_branch %}is-open{% endif %}" data-tree-list>
+                {% for child in node.children %}
+                    {{ render_node(child, current_path) }}
+                {% endfor %}
+            </ul>
+        {% elif node.is_leaf %}
+            <a class="tree-link {% if is_current %}is-active{% endif %}" href="{{ url_for('main.item_view', item_path=node.url_path) }}">
+                {% if node.code %}<span class="tree-code">{{ node.code }}</span>{% endif %}
+                <span class="tree-title">{{ node.title }}</span>
+            </a>
+        {% endif %}
+    </li>
+{%- endmacro %}
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}مراجعة مفردات المحاسب القانوني{% endblock %}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    {% set current_path = request.view_args.item_path if request.endpoint == 'main.item_view' else '' %}
+    <div class="app-shell">
+        <aside class="sidebar" data-sidebar-scroll>
+            <div class="sidebar__header">
+                <p class="eyebrow">خطة مراجعة</p>
+                <h1>مفردات المحاسب القانوني</h1>
+                <p class="sidebar__description">تنقل هرمي يدعم الأب، والابن، والمفردات النهائية داخل نفس الشجرة.</p>
+            </div>
+
+            <div class="sidebar-tools">
+                <label class="sidebar-search">
+                    <span class="sidebar-search__label">البحث في القائمة</span>
+                    <input
+                        id="sidebar-search"
+                        class="sidebar-search__input"
+                        type="search"
+                        placeholder="ابحث عن محور أو مفردة"
+                        autocomplete="off"
+                    >
+                </label>
+            </div>
+
+            <nav class="sidebar__nav" aria-label="التنقل بين المفردات">
+                <ul class="tree-list tree-list--root is-open">
+                    {% for node in sidebar_tree %}
+                        {{ render_node(node, current_path) }}
+                    {% endfor %}
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="content-area">
+            {% block content %}{% endblock %}
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener("change", function (event) {
+            if (!event.target.matches("[data-quiz-choice]")) return;
+
+            const questionCard = event.target.closest("[data-quiz-card]");
+            const choices = questionCard.querySelectorAll("[data-quiz-choice]");
+            const correctIndex = Number(questionCard.dataset.correct);
+            const result = questionCard.querySelector("[data-quiz-result]");
+            const explanation = questionCard.querySelector("[data-quiz-explanation]");
+
+            choices.forEach((input, index) => {
+                const row = input.closest(".choice-row");
+                row.classList.remove("is-correct", "is-wrong");
+                if (index === correctIndex) {
+                    row.classList.add("is-correct");
+                }
+            });
+
+            const chosenIndex = Number(event.target.value);
+            if (chosenIndex === correctIndex) {
+                result.textContent = "إجابة صحيحة";
+                result.className = "quiz-result success";
+            } else {
+                event.target.closest(".choice-row").classList.add("is-wrong");
+                result.textContent = "إجابة غير صحيحة";
+                result.className = "quiz-result error";
+            }
+
+            explanation.hidden = false;
+        });
+
+        document.addEventListener("click", function (event) {
+            const toggle = event.target.closest("[data-tree-toggle]");
+            if (!toggle) return;
+
+            const node = toggle.closest("[data-tree-node]");
+            const list = node.querySelector(":scope > [data-tree-list]");
+            const expanded = toggle.getAttribute("aria-expanded") === "true";
+
+            toggle.setAttribute("aria-expanded", expanded ? "false" : "true");
+            if (list) {
+                list.classList.toggle("is-open", !expanded);
+            }
+        });
+
+        document.addEventListener("input", function (event) {
+            if (event.target.id !== "sidebar-search") return;
+
+            const query = event.target.value.trim().toLowerCase();
+            const nodes = Array.from(document.querySelectorAll("[data-tree-node]"));
+
+            nodes.forEach((node) => {
+                node.hidden = false;
+            });
+
+            if (query === "") {
+                nodes.forEach((node) => {
+                    const toggle = node.querySelector(":scope > [data-tree-toggle]");
+                    const list = node.querySelector(":scope > [data-tree-list]");
+                    if (toggle && list && toggle.getAttribute("aria-expanded") !== "true") {
+                        list.classList.remove("is-open");
+                    }
+                });
+                return;
+            }
+
+            nodes.reverse().forEach((node) => {
+                const ownText = (node.dataset.searchText || "").toLowerCase();
+                const directChildren = Array.from(node.querySelectorAll(":scope > [data-tree-list] > [data-tree-node]"));
+                const childVisible = directChildren.some((child) => !child.hidden);
+                const matched = ownText.includes(query) || childVisible;
+                node.hidden = !matched;
+
+                const toggle = node.querySelector(":scope > [data-tree-toggle]");
+                const list = node.querySelector(":scope > [data-tree-list]");
+                if (matched && toggle && list) {
+                    toggle.setAttribute("aria-expanded", "true");
+                    list.classList.add("is-open");
+                }
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const sidebar = document.querySelector("[data-sidebar-scroll]");
+            if (!sidebar) return;
+
+            const storageKey = "sidebar-scroll-top";
+            const savedScroll = window.sessionStorage.getItem(storageKey);
+
+            if (savedScroll !== null) {
+                sidebar.scrollTop = Number(savedScroll);
+            }
+
+            sidebar.addEventListener("scroll", function () {
+                window.sessionStorage.setItem(storageKey, String(sidebar.scrollTop));
+            }, { passive: true });
+
+            document.addEventListener("click", function (event) {
+                const navLink = event.target.closest(".tree-link, .tab-link");
+                if (!navLink) return;
+                window.sessionStorage.setItem(storageKey, String(sidebar.scrollTop));
+            });
+        });
+    </script>
+</body>
+</html>

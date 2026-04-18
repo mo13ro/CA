@@ -1,0 +1,26 @@
+﻿{
+  "code": "7",
+  "title": "مصادر التمويل والالتزامات",
+  "slug": "financing-sources-and-liabilities",
+  "order": 7,
+  "children": [
+    {
+      "code": "7.1",
+      "slug": "debt-financing",
+      "title": "التمويل بالديون",
+      "order": 1
+    },
+    {
+      "code": "7.2",
+      "slug": "other-liabilities",
+      "title": "الالتزامات الأخرى",
+      "order": 2
+    },
+    {
+      "code": "7.3",
+      "slug": "financing-structure-analysis",
+      "title": "تحليل هيكل التمويل",
+      "order": 3
+    }
+  ]
+}

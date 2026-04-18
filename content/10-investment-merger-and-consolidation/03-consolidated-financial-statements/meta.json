@@ -1,0 +1,32 @@
+﻿{
+  "code": "10.3",
+  "title": "القوائم المالية المجمعة",
+  "slug": "consolidated-financial-statements",
+  "order": 3,
+  "children": [
+    {
+      "code": "10.3.1",
+      "slug": "consolidation-concept",
+      "title": "مفهوم التجميع",
+      "order": 1
+    },
+    {
+      "code": "10.3.2",
+      "slug": "consolidation-procedures",
+      "title": "أسس وإجراءات التجميع",
+      "order": 2
+    },
+    {
+      "code": "10.3.3",
+      "slug": "elimination-of-intercompany-transactions",
+      "title": "استبعاد العمليات المتبادلة",
+      "order": 3
+    },
+    {
+      "code": "10.3.4",
+      "slug": "valuation-of-assets-and-liabilities",
+      "title": "تقييم الأصول والالتزامات",
+      "order": 4
+    }
+  ]
+}

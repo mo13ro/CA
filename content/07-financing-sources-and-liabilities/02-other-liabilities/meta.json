@@ -1,0 +1,26 @@
+﻿{
+  "code": "7.2",
+  "title": "الالتزامات الأخرى",
+  "slug": "other-liabilities",
+  "order": 2,
+  "children": [
+    {
+      "code": "7.2.1",
+      "slug": "current-liabilities",
+      "title": "الالتزامات الجارية",
+      "order": 1
+    },
+    {
+      "code": "7.2.2",
+      "slug": "contingent-liabilities",
+      "title": "الالتزامات الطارئة",
+      "order": 2
+    },
+    {
+      "code": "7.2.3",
+      "slug": "deferred-taxes",
+      "title": "الضرائب المؤجلة",
+      "order": 3
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+﻿{
+  "code": "6.2",
+  "title": "الإهلاك",
+  "slug": "depreciation",
+  "order": 2,
+  "children": [
+    {
+      "code": "6.2.1",
+      "slug": "concept",
+      "title": "مفهوم الإهلاك",
+      "order": 1
+    },
+    {
+      "code": "6.2.2",
+      "slug": "straight-line",
+      "title": "طرق الإهلاك - القسط الثابت",
+      "order": 2
+    },
+    {
+      "code": "6.2.3",
+      "slug": "declining-balance",
+      "title": "طرق الإهلاك - الرصيد المتناقص",
+      "order": 3
+    },
+    {
+      "code": "6.2.4",
+      "slug": "units-of-production",
+      "title": "طرق الإهلاك - وحدات الإنتاج",
+      "order": 4
+    },
+    {
+      "code": "6.2.5",
+      "slug": "selection-and-change",
+      "title": "اختيار وتغيير طريقة الإهلاك",
+      "order": 5
+    },
+    {
+      "code": "6.2.6",
+      "slug": "accounting-treatment",
+      "title": "المعالجة المحاسبية للإهلاك",
+      "order": 6
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+﻿{
+  "code": "8.2",
+  "title": "حقوق الملكية في الشركات المساهمة",
+  "slug": "equity-in-joint-stock-companies",
+  "order": 2,
+  "children": [
+    {
+      "code": "8.2.1",
+      "slug": "common-shares",
+      "title": "الأسهم العادية",
+      "order": 1
+    },
+    {
+      "code": "8.2.2",
+      "slug": "preferred-shares",
+      "title": "الأسهم الممتازة",
+      "order": 2
+    },
+    {
+      "code": "8.2.3",
+      "slug": "treasury-shares",
+      "title": "أسهم الخزينة",
+      "order": 3
+    },
+    {
+      "code": "8.2.4",
+      "slug": "reserves",
+      "title": "الاحتياطيات",
+      "order": 4
+    },
+    {
+      "code": "8.2.5",
+      "slug": "retained-earnings",
+      "title": "الأرباح المحتجزة",
+      "order": 5
+    },
+    {
+      "code": "8.2.6",
+      "slug": "dividends",
+      "title": "توزيعات الأرباح",
+      "order": 6
+    },
+    {
+      "code": "8.2.7",
+      "slug": "earnings-per-share",
+      "title": "نصيب السهم من الأرباح",
+      "order": 7
+    }
+  ]
+}

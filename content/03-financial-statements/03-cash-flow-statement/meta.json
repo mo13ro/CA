@@ -1,0 +1,56 @@
+﻿{
+  "code": "3.3",
+  "title": "قائمة التدفقات النقدية",
+  "slug": "cash-flow-statement",
+  "order": 3,
+  "children": [
+    {
+      "code": "3.3.1",
+      "slug": "cash-and-equivalents",
+      "title": "مفهوم النقد والنقد المعادل",
+      "order": 1
+    },
+    {
+      "code": "3.3.2",
+      "slug": "operating-cash-flows",
+      "title": "التدفقات التشغيلية",
+      "order": 2
+    },
+    {
+      "code": "3.3.3",
+      "slug": "investing-cash-flows",
+      "title": "التدفقات الاستثمارية",
+      "order": 3
+    },
+    {
+      "code": "3.3.4",
+      "slug": "financing-cash-flows",
+      "title": "التدفقات التمويلية",
+      "order": 4
+    },
+    {
+      "code": "3.3.5",
+      "slug": "direct-method",
+      "title": "إعداد القائمة بالطريقة المباشرة",
+      "order": 5
+    },
+    {
+      "code": "3.3.6",
+      "slug": "indirect-method",
+      "title": "إعداد القائمة بالطريقة غير المباشرة",
+      "order": 6
+    },
+    {
+      "code": "3.3.7",
+      "slug": "analysis",
+      "title": "تحليل قائمة التدفقات النقدية",
+      "order": 7
+    },
+    {
+      "code": "3.3.8",
+      "slug": "disclosure-ias7",
+      "title": "الإفصاح وفق IAS 7",
+      "order": 8
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+﻿{
+  "code": "9",
+  "title": "موضوعات تؤثر على الربح وحقوق الملكية",
+  "slug": "topics-affecting-profit-and-equity",
+  "order": 9,
+  "children": [
+    {
+      "code": "9.1",
+      "slug": "extraordinary-items",
+      "title": "البنود غير العادية",
+      "order": 1
+    },
+    {
+      "code": "9.2",
+      "slug": "discontinued-operations",
+      "title": "العمليات غير المستمرة",
+      "order": 2
+    },
+    {
+      "code": "9.3",
+      "slug": "changes-in-policies-or-principles",
+      "title": "التغير في السياسات أو المبادئ المحاسبية",
+      "order": 3
+    },
+    {
+      "code": "9.4",
+      "slug": "retained-earnings-adjustments",
+      "title": "تسويات الأرباح المحتجزة",
+      "order": 4
+    },
+    {
+      "code": "9.5",
+      "slug": "pensions-and-post-retirement-benefits",
+      "title": "المعاشات ومنافع ما بعد التقاعد",
+      "order": 5
+    },
+    {
+      "code": "9.6",
+      "slug": "income-taxes",
+      "title": "ضرائب الدخل",
+      "order": 6
+    }
+  ]
+}

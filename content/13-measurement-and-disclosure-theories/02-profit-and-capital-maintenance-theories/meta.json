@@ -1,0 +1,26 @@
+﻿{
+  "code": "13.2",
+  "title": "نظريات الربح والمحافظة على رأس المال",
+  "slug": "profit-and-capital-maintenance-theories",
+  "order": 2,
+  "children": [
+    {
+      "code": "13.2.1",
+      "slug": "financial-capital-maintenance",
+      "title": "المحافظة على رأس المال النقدي",
+      "order": 1
+    },
+    {
+      "code": "13.2.2",
+      "slug": "physical-capital-maintenance",
+      "title": "المحافظة على رأس المال المادي",
+      "order": 2
+    },
+    {
+      "code": "13.2.3",
+      "slug": "effect-on-profit",
+      "title": "أثر كل منهما على الربح",
+      "order": 3
+    }
+  ]
+}

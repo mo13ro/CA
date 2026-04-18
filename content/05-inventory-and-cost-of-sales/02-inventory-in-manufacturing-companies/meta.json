@@ -1,0 +1,38 @@
+﻿{
+  "code": "5.2",
+  "title": "المخزون في المنشآت الصناعية",
+  "slug": "inventory-in-manufacturing-companies",
+  "order": 2,
+  "children": [
+    {
+      "code": "5.2.1",
+      "slug": "raw-materials",
+      "title": "المواد الخام",
+      "order": 1
+    },
+    {
+      "code": "5.2.2",
+      "slug": "work-in-process",
+      "title": "الإنتاج تحت التشغيل",
+      "order": 2
+    },
+    {
+      "code": "5.2.3",
+      "slug": "finished-goods",
+      "title": "الإنتاج التام",
+      "order": 3
+    },
+    {
+      "code": "5.2.4",
+      "slug": "cost-of-goods-manufactured",
+      "title": "تكلفة السلع المصنعة",
+      "order": 4
+    },
+    {
+      "code": "5.2.5",
+      "slug": "cost-of-goods-sold",
+      "title": "تكلفة السلع المباعة",
+      "order": 5
+    }
+  ]
+}

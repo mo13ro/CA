@@ -1,0 +1,38 @@
+﻿{
+  "code": "5.3",
+  "title": "طرق تسعير المخزون",
+  "slug": "inventory-pricing-methods",
+  "order": 3,
+  "children": [
+    {
+      "code": "5.3.1",
+      "slug": "specific-identification",
+      "title": "التعيين المحدد",
+      "order": 1
+    },
+    {
+      "code": "5.3.2",
+      "slug": "weighted-average",
+      "title": "المتوسط المرجح",
+      "order": 2
+    },
+    {
+      "code": "5.3.3",
+      "slug": "fifo",
+      "title": "الوارد أولاً صادر أولاً FIFO",
+      "order": 3
+    },
+    {
+      "code": "5.3.4",
+      "slug": "lifo",
+      "title": "الوارد أخيراً صادر أولاً LIFO",
+      "order": 4
+    },
+    {
+      "code": "5.3.5",
+      "slug": "lower-of-cost-and-nrv",
+      "title": "التكلفة أو صافي القيمة القابلة للتحقق أيهما أقل",
+      "order": 5
+    }
+  ]
+}

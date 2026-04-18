@@ -1,0 +1,26 @@
+﻿{
+  "code": "6",
+  "title": "الأصول طويلة الأجل",
+  "slug": "long-term-assets",
+  "order": 6,
+  "children": [
+    {
+      "code": "6.1",
+      "slug": "fixed-assets",
+      "title": "الأصول الثابتة",
+      "order": 1
+    },
+    {
+      "code": "6.2",
+      "slug": "depreciation",
+      "title": "الإهلاك",
+      "order": 2
+    },
+    {
+      "code": "6.3",
+      "slug": "special-topics-in-long-term-assets",
+      "title": "موضوعات خاصة بالأصول طويلة الأجل",
+      "order": 3
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+﻿{
+  "code": "6.3",
+  "title": "موضوعات خاصة بالأصول طويلة الأجل",
+  "slug": "special-topics-in-long-term-assets",
+  "order": 3,
+  "children": [
+    {
+      "code": "6.3.1",
+      "slug": "natural-resources-depletion",
+      "title": "إهلاك الموارد الطبيعية",
+      "order": 1
+    },
+    {
+      "code": "6.3.2",
+      "slug": "intangible-assets",
+      "title": "الأصول غير الملموسة",
+      "order": 2
+    },
+    {
+      "code": "6.3.3",
+      "slug": "research-and-development",
+      "title": "البحث والتطوير",
+      "order": 3
+    },
+    {
+      "code": "6.3.4",
+      "slug": "tax-considerations",
+      "title": "الاعتبارات الضريبية المرتبطة بالأصول",
+      "order": 4
+    }
+  ]
+}

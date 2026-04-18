@@ -1,0 +1,68 @@
+﻿{
+  "code": "2",
+  "title": "المفاهيم المحاسبية الأساسية",
+  "slug": "basic-accounting-concepts",
+  "order": 2,
+  "children": [
+    {
+      "code": "2.1",
+      "slug": "accounting-entity",
+      "title": "الوحدة المحاسبية",
+      "order": 1
+    },
+    {
+      "code": "2.2",
+      "slug": "monetary-unit",
+      "title": "وحدة القياس النقدي",
+      "order": 2
+    },
+    {
+      "code": "2.3",
+      "slug": "going-concern",
+      "title": "الاستمرارية",
+      "order": 3
+    },
+    {
+      "code": "2.4",
+      "slug": "accounting-period",
+      "title": "الفترة المحاسبية",
+      "order": 4
+    },
+    {
+      "code": "2.5",
+      "slug": "historical-cost",
+      "title": "التكلفة التاريخية",
+      "order": 5
+    },
+    {
+      "code": "2.6",
+      "slug": "verifiability",
+      "title": "التحقق",
+      "order": 6
+    },
+    {
+      "code": "2.7",
+      "slug": "matching",
+      "title": "المقابلة",
+      "order": 7
+    },
+    {
+      "code": "2.8",
+      "slug": "conservatism",
+      "title": "التحفظ",
+      "order": 8
+    },
+    {
+      "code": "2.9",
+      "slug": "consistency",
+      "title": "الاتساق",
+      "order": 9
+    },
+    {
+      "code": "2.10",
+      "slug": "materiality",
+      "title": "الأهمية النسبية",
+      "order": 10
+    }
+  ]
+}

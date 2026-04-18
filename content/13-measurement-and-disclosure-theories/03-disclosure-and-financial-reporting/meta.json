@@ -1,0 +1,56 @@
+﻿{
+  "code": "13.3",
+  "title": "الإفصاح والتقارير المالية",
+  "slug": "disclosure-and-financial-reporting",
+  "order": 3,
+  "children": [
+    {
+      "code": "13.3.1",
+      "slug": "agency-theory",
+      "title": "نظرية الوكالة",
+      "order": 1
+    },
+    {
+      "code": "13.3.2",
+      "slug": "agency-cost",
+      "title": "تكلفة الوكالة",
+      "order": 2
+    },
+    {
+      "code": "13.3.3",
+      "slug": "annual-report",
+      "title": "التقرير السنوي",
+      "order": 3
+    },
+    {
+      "code": "13.3.4",
+      "slug": "board-report",
+      "title": "تقرير مجلس الإدارة",
+      "order": 4
+    },
+    {
+      "code": "13.3.5",
+      "slug": "governance-report",
+      "title": "تقرير الحوكمة",
+      "order": 5
+    },
+    {
+      "code": "13.3.6",
+      "slug": "social-responsibility-report",
+      "title": "تقرير المسؤولية الاجتماعية",
+      "order": 6
+    },
+    {
+      "code": "13.3.7",
+      "slug": "auditor-report",
+      "title": "تقرير مراجع الحسابات",
+      "order": 7
+    },
+    {
+      "code": "13.3.8",
+      "slug": "management-notes",
+      "title": "ملاحظات الإدارة",
+      "order": 8
+    }
+  ]
+}

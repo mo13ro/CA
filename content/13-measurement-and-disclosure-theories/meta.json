@@ -1,0 +1,26 @@
+﻿{
+  "code": "13",
+  "title": "نظريات القياس والإفصاح",
+  "slug": "measurement-and-disclosure-theories",
+  "order": 13,
+  "children": [
+    {
+      "code": "13.1",
+      "slug": "accounting-measurement-methods",
+      "title": "أساليب القياس المحاسبي",
+      "order": 1
+    },
+    {
+      "code": "13.2",
+      "slug": "profit-and-capital-maintenance-theories",
+      "title": "نظريات الربح والمحافظة على رأس المال",
+      "order": 2
+    },
+    {
+      "code": "13.3",
+      "slug": "disclosure-and-financial-reporting",
+      "title": "الإفصاح والتقارير المالية",
+      "order": 3
+    }
+  ]
+}

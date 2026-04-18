@@ -1,0 +1,38 @@
+﻿{
+  "code": "10.2",
+  "title": "الاندماج والاستحواذ",
+  "slug": "mergers-and-acquisitions",
+  "order": 2,
+  "children": [
+    {
+      "code": "10.2.1",
+      "slug": "types-of-mergers",
+      "title": "أشكال الاندماج",
+      "order": 1
+    },
+    {
+      "code": "10.2.2",
+      "slug": "goodwill",
+      "title": "الشهرة",
+      "order": 2
+    },
+    {
+      "code": "10.2.3",
+      "slug": "goodwill-measurement",
+      "title": "قياس الشهرة ومعالجتها",
+      "order": 3
+    },
+    {
+      "code": "10.2.4",
+      "slug": "purchase-method",
+      "title": "طريقة الشراء",
+      "order": 4
+    },
+    {
+      "code": "10.2.5",
+      "slug": "pooling-of-interests",
+      "title": "طريقة المصالح المشتركة",
+      "order": 5
+    }
+  ]
+}

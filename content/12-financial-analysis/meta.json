@@ -1,0 +1,68 @@
+﻿{
+  "code": "12",
+  "title": "التحليل المالي",
+  "slug": "financial-analysis",
+  "order": 12,
+  "children": [
+    {
+      "code": "12.1",
+      "slug": "horizontal-analysis",
+      "title": "التحليل الأفقي",
+      "order": 1
+    },
+    {
+      "code": "12.2",
+      "slug": "vertical-analysis",
+      "title": "التحليل الرأسي",
+      "order": 2
+    },
+    {
+      "code": "12.3",
+      "slug": "liquidity-ratios",
+      "title": "نسب السيولة",
+      "order": 3
+    },
+    {
+      "code": "12.4",
+      "slug": "activity-ratios",
+      "title": "نسب النشاط",
+      "order": 4
+    },
+    {
+      "code": "12.5",
+      "slug": "profitability-ratios",
+      "title": "نسب الربحية",
+      "order": 5
+    },
+    {
+      "code": "12.6",
+      "slug": "debt-ratios",
+      "title": "نسب المديونية",
+      "order": 6
+    },
+    {
+      "code": "12.7",
+      "slug": "working-capital",
+      "title": "رأس المال العامل",
+      "order": 7
+    },
+    {
+      "code": "12.8",
+      "slug": "return-on-investment",
+      "title": "العائد على الاستثمار",
+      "order": 8
+    },
+    {
+      "code": "12.9",
+      "slug": "relationship-between-ratios",
+      "title": "العلاقة بين النسب المالية",
+      "order": 9
+    },
+    {
+      "code": "12.10",
+      "slug": "limitations-of-financial-analysis",
+      "title": "حدود التحليل المالي",
+      "order": 10
+    }
+  ]
+}

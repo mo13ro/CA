@@ -1,0 +1,20 @@
+﻿{
+  "code": "4",
+  "title": "الإيرادات والنقدية",
+  "slug": "revenue-and-cash",
+  "order": 4,
+  "children": [
+    {
+      "code": "4.1",
+      "slug": "revenue-recognition",
+      "title": "الاعتراف بالإيراد",
+      "order": 1
+    },
+    {
+      "code": "4.2",
+      "slug": "cash-and-cash-assets",
+      "title": "النقدية والأصول النقدية",
+      "order": 2
+    }
+  ]
+}

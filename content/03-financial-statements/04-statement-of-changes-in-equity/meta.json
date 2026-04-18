@@ -1,0 +1,32 @@
+﻿{
+  "code": "3.4",
+  "title": "قائمة التغيرات في حقوق الملكية",
+  "slug": "statement-of-changes-in-equity",
+  "order": 4,
+  "children": [
+    {
+      "code": "3.4.1",
+      "slug": "capital-changes",
+      "title": "التغيرات في رأس المال",
+      "order": 1
+    },
+    {
+      "code": "3.4.2",
+      "slug": "reserve-changes",
+      "title": "التغيرات في الاحتياطيات",
+      "order": 2
+    },
+    {
+      "code": "3.4.3",
+      "slug": "retained-earnings",
+      "title": "الأرباح المحتجزة",
+      "order": 3
+    },
+    {
+      "code": "3.4.4",
+      "slug": "effect-of-policies-and-errors",
+      "title": "أثر السياسات المحاسبية والأخطاء",
+      "order": 4
+    }
+  ]
+}

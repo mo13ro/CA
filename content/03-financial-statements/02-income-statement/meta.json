@@ -1,0 +1,92 @@
+﻿{
+  "code": "3.2",
+  "title": "قائمة الدخل",
+  "slug": "income-statement",
+  "order": 2,
+  "children": [
+    {
+      "code": "3.2.1",
+      "slug": "elements-revenue",
+      "title": "عناصر قائمة الدخل - الإيرادات",
+      "order": 1
+    },
+    {
+      "code": "3.2.2",
+      "slug": "elements-cost-of-sales",
+      "title": "عناصر قائمة الدخل - تكلفة المبيعات",
+      "order": 2
+    },
+    {
+      "code": "3.2.3",
+      "slug": "elements-gross-profit",
+      "title": "عناصر قائمة الدخل - مجمل الربح",
+      "order": 3
+    },
+    {
+      "code": "3.2.4",
+      "slug": "elements-operating-expenses",
+      "title": "عناصر قائمة الدخل - المصاريف التشغيلية",
+      "order": 4
+    },
+    {
+      "code": "3.2.5",
+      "slug": "elements-gains-and-losses",
+      "title": "عناصر قائمة الدخل - الأرباح والخسائر",
+      "order": 5
+    },
+    {
+      "code": "3.2.6",
+      "slug": "elements-net-income",
+      "title": "عناصر قائمة الدخل - صافي الربح",
+      "order": 6
+    },
+    {
+      "code": "3.2.7",
+      "slug": "related-nature-of-income",
+      "title": "موضوعات مرتبطة بقائمة الدخل - طبيعة الدخل",
+      "order": 7
+    },
+    {
+      "code": "3.2.8",
+      "slug": "related-expense-recognition",
+      "title": "موضوعات مرتبطة بقائمة الدخل - الاعتراف بالمصروفات",
+      "order": 8
+    },
+    {
+      "code": "3.2.9",
+      "slug": "related-economic-income",
+      "title": "موضوعات مرتبطة بقائمة الدخل - الدخل الاقتصادي",
+      "order": 9
+    },
+    {
+      "code": "3.2.10",
+      "slug": "related-accrual-vs-cash",
+      "title": "موضوعات مرتبطة بقائمة الدخل - أساس الاستحقاق مقابل الأساس النقدي",
+      "order": 10
+    },
+    {
+      "code": "3.2.11",
+      "slug": "related-retained-earnings",
+      "title": "موضوعات مرتبطة بقائمة الدخل - الأرباح المحتجزة",
+      "order": 11
+    },
+    {
+      "code": "3.2.12",
+      "slug": "related-link-to-financial-position",
+      "title": "موضوعات مرتبطة بقائمة الدخل - العلاقة بين قائمة الدخل وقائمة المركز المالي",
+      "order": 12
+    },
+    {
+      "code": "3.2.13",
+      "slug": "related-disclosure-ias1",
+      "title": "موضوعات مرتبطة بقائمة الدخل - الإفصاح والعرض وفق IAS 1",
+      "order": 13
+    },
+    {
+      "code": "3.2.14",
+      "slug": "related-english-terms",
+      "title": "موضوعات مرتبطة بقائمة الدخل - مصطلحات قائمة الدخل باللغة الإنجليزية",
+      "order": 14
+    }
+  ]
+}

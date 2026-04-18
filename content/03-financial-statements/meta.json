@@ -1,0 +1,32 @@
+﻿{
+  "code": "3",
+  "title": "القوائم المالية الأساسية",
+  "slug": "financial-statements",
+  "order": 3,
+  "children": [
+    {
+      "code": "3.1",
+      "slug": "statement-of-financial-position",
+      "title": "قائمة المركز المالي",
+      "order": 1
+    },
+    {
+      "code": "3.2",
+      "slug": "income-statement",
+      "title": "قائمة الدخل",
+      "order": 2
+    },
+    {
+      "code": "3.3",
+      "slug": "cash-flow-statement",
+      "title": "قائمة التدفقات النقدية",
+      "order": 3
+    },
+    {
+      "code": "3.4",
+      "slug": "statement-of-changes-in-equity",
+      "title": "قائمة التغيرات في حقوق الملكية",
+      "order": 4
+    }
+  ]
+}

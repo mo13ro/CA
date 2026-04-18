@@ -1,0 +1,38 @@
+﻿{
+  "code": "8.2.5",
+  "title": "الأرباح المحتجزة",
+  "slug": "retained-earnings",
+  "order": 5,
+  "tabs": [
+    {
+      "code": "theory",
+      "title": "الشرح النظري",
+      "type": "markdown",
+      "file": "theory.md"
+    },
+    {
+      "code": "examples",
+      "title": "الأمثلة",
+      "type": "markdown",
+      "file": "examples.md"
+    },
+    {
+      "code": "essay",
+      "title": "أسئلة مقالية",
+      "type": "markdown",
+      "file": "essay.md"
+    },
+    {
+      "code": "mistakes",
+      "title": "أخطاء شائعة",
+      "type": "markdown",
+      "file": "mistakes.md"
+    },
+    {
+      "code": "mcq",
+      "title": "اختيار من متعدد",
+      "type": "quiz",
+      "file": "mcq.json"
+    }
+  ]
+}

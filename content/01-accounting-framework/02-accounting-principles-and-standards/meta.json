@@ -1,0 +1,44 @@
+﻿{
+  "code": "1.2",
+  "title": "المبادئ والمعايير المحاسبية",
+  "slug": "accounting-principles-and-standards",
+  "order": 2,
+  "children": [
+    {
+      "code": "1.2.1",
+      "slug": "basic-principles-and-assumptions",
+      "title": "المبادئ والفروض المحاسبية الأساسية",
+      "order": 1
+    },
+    {
+      "code": "1.2.2",
+      "slug": "ias",
+      "title": "معايير المحاسبة الدولية IAS",
+      "order": 2
+    },
+    {
+      "code": "1.2.3",
+      "slug": "ifrs",
+      "title": "معايير التقارير المالية الدولية IFRS",
+      "order": 3
+    },
+    {
+      "code": "1.2.4",
+      "slug": "iasb-role",
+      "title": "دور IASB في إصدار المعايير",
+      "order": 4
+    },
+    {
+      "code": "1.2.5",
+      "slug": "global-harmonization",
+      "title": "تجانس المعايير المحاسبية دولياً",
+      "order": 5
+    },
+    {
+      "code": "1.2.6",
+      "slug": "sme-standards",
+      "title": "المعايير الخاصة بالمنشآت الصغيرة والمتوسطة",
+      "order": 6
+    }
+  ]
+}

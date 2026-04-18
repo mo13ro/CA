@@ -1,0 +1,38 @@
+﻿{
+  "code": "1.3",
+  "title": "الإطار النظري للمحاسبة المالية",
+  "slug": "conceptual-framework",
+  "order": 3,
+  "children": [
+    {
+      "code": "1.3.1",
+      "slug": "framework-concept-and-importance",
+      "title": "مفهوم وأهمية الإطار النظري",
+      "order": 1
+    },
+    {
+      "code": "1.3.2",
+      "slug": "accounting-information-characteristics",
+      "title": "خصائص المعلومات المحاسبية",
+      "order": 2
+    },
+    {
+      "code": "1.3.3",
+      "slug": "substance-over-form",
+      "title": "الجوهر الاقتصادي مقابل الشكل القانوني",
+      "order": 3
+    },
+    {
+      "code": "1.3.4",
+      "slug": "policies-estimates-errors",
+      "title": "السياسات المحاسبية والتقديرات والأخطاء",
+      "order": 4
+    },
+    {
+      "code": "1.3.5",
+      "slug": "treatment-without-direct-standard",
+      "title": "المعالجة المحاسبية عند عدم وجود معيار مباشر",
+      "order": 5
+    }
+  ]
+}

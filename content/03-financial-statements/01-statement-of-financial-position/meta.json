@@ -1,0 +1,188 @@
+﻿{
+  "code": "3.1",
+  "title": "قائمة المركز المالي",
+  "slug": "statement-of-financial-position",
+  "order": 1,
+  "children": [
+    {
+      "code": "3.1.1",
+      "slug": "current-assets-cash",
+      "title": "الأصول المتداولة - النقدية وما في حكمها",
+      "order": 1
+    },
+    {
+      "code": "3.1.2",
+      "slug": "current-assets-receivables",
+      "title": "الأصول المتداولة - الذمم المدينة",
+      "order": 2
+    },
+    {
+      "code": "3.1.3",
+      "slug": "current-assets-inventory",
+      "title": "الأصول المتداولة - المخزون",
+      "order": 3
+    },
+    {
+      "code": "3.1.4",
+      "slug": "current-assets-prepaid-expenses",
+      "title": "الأصول المتداولة - المصروفات المقدمة",
+      "order": 4
+    },
+    {
+      "code": "3.1.5",
+      "slug": "current-assets-short-term-investments",
+      "title": "الأصول المتداولة - الاستثمارات قصيرة الأجل",
+      "order": 5
+    },
+    {
+      "code": "3.1.6",
+      "slug": "non-current-assets-ppe",
+      "title": "الأصول غير المتداولة - الممتلكات والآلات والمعدات",
+      "order": 6
+    },
+    {
+      "code": "3.1.7",
+      "slug": "non-current-assets-fixed-assets",
+      "title": "الأصول غير المتداولة - الأصول الثابتة وإهلاكها",
+      "order": 7
+    },
+    {
+      "code": "3.1.8",
+      "slug": "non-current-assets-natural-resources",
+      "title": "الأصول غير المتداولة - الموارد الطبيعية واستنفادها",
+      "order": 8
+    },
+    {
+      "code": "3.1.9",
+      "slug": "non-current-assets-intangibles",
+      "title": "الأصول غير المتداولة - الأصول غير الملموسة",
+      "order": 9
+    },
+    {
+      "code": "3.1.10",
+      "slug": "non-current-assets-rd",
+      "title": "الأصول غير المتداولة - البحث والتطوير",
+      "order": 10
+    },
+    {
+      "code": "3.1.11",
+      "slug": "non-current-assets-long-term-investments",
+      "title": "الأصول غير المتداولة - الاستثمارات طويلة الأجل",
+      "order": 11
+    },
+    {
+      "code": "3.1.12",
+      "slug": "current-liabilities-suppliers",
+      "title": "الالتزامات المتداولة - الموردون",
+      "order": 12
+    },
+    {
+      "code": "3.1.13",
+      "slug": "current-liabilities-accrued-expenses",
+      "title": "الالتزامات المتداولة - المصروفات المستحقة",
+      "order": 13
+    },
+    {
+      "code": "3.1.14",
+      "slug": "current-liabilities-short-term-loans",
+      "title": "الالتزامات المتداولة - القروض قصيرة الأجل",
+      "order": 14
+    },
+    {
+      "code": "3.1.15",
+      "slug": "current-liabilities-taxes",
+      "title": "الالتزامات المتداولة - الضرائب المستحقة",
+      "order": 15
+    },
+    {
+      "code": "3.1.16",
+      "slug": "long-term-liabilities-loans",
+      "title": "الالتزامات طويلة الأجل - القروض طويلة الأجل",
+      "order": 16
+    },
+    {
+      "code": "3.1.17",
+      "slug": "long-term-liabilities-bonds",
+      "title": "الالتزامات طويلة الأجل - السندات",
+      "order": 17
+    },
+    {
+      "code": "3.1.18",
+      "slug": "long-term-liabilities-finance-lease",
+      "title": "الالتزامات طويلة الأجل - التأجير التمويلي",
+      "order": 18
+    },
+    {
+      "code": "3.1.19",
+      "slug": "long-term-liabilities-deferred-taxes",
+      "title": "الالتزامات طويلة الأجل - الضرائب المؤجلة",
+      "order": 19
+    },
+    {
+      "code": "3.1.20",
+      "slug": "long-term-liabilities-contingencies",
+      "title": "الالتزامات طويلة الأجل - الالتزامات الطارئة",
+      "order": 20
+    },
+    {
+      "code": "3.1.21",
+      "slug": "equity-capital",
+      "title": "حقوق الملكية - رأس المال",
+      "order": 21
+    },
+    {
+      "code": "3.1.22",
+      "slug": "equity-common-and-preferred-shares",
+      "title": "حقوق الملكية - الأسهم العادية والممتازة",
+      "order": 22
+    },
+    {
+      "code": "3.1.23",
+      "slug": "equity-treasury-shares",
+      "title": "حقوق الملكية - أسهم الخزينة",
+      "order": 23
+    },
+    {
+      "code": "3.1.24",
+      "slug": "equity-reserves",
+      "title": "حقوق الملكية - الاحتياطيات",
+      "order": 24
+    },
+    {
+      "code": "3.1.25",
+      "slug": "equity-retained-earnings",
+      "title": "حقوق الملكية - الأرباح المحتجزة",
+      "order": 25
+    },
+    {
+      "code": "3.1.26",
+      "slug": "equity-dividends",
+      "title": "حقوق الملكية - توزيعات الأرباح",
+      "order": 26
+    },
+    {
+      "code": "3.1.27",
+      "slug": "equity-eps",
+      "title": "حقوق الملكية - نصيب السهم من الأرباح",
+      "order": 27
+    },
+    {
+      "code": "3.1.28",
+      "slug": "related-financial-position-changes",
+      "title": "موضوعات مرتبطة بقائمة المركز المالي - التغيرات المؤثرة على المركز المالي",
+      "order": 28
+    },
+    {
+      "code": "3.1.29",
+      "slug": "related-disclosure-ias1",
+      "title": "موضوعات مرتبطة بقائمة المركز المالي - الإفصاح والعرض وفق IAS 1",
+      "order": 29
+    },
+    {
+      "code": "3.1.30",
+      "slug": "related-english-terms",
+      "title": "موضوعات مرتبطة بقائمة المركز المالي - مصطلحات قائمة المركز المالي باللغة الإنجليزية",
+      "order": 30
+    }
+  ]
+}

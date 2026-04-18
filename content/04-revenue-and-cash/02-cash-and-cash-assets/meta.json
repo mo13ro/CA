@@ -1,0 +1,32 @@
+﻿{
+  "code": "4.2",
+  "title": "النقدية والأصول النقدية",
+  "slug": "cash-and-cash-assets",
+  "order": 2,
+  "children": [
+    {
+      "code": "4.2.1",
+      "slug": "cash-and-equivalents",
+      "title": "النقدية وما في حكمها",
+      "order": 1
+    },
+    {
+      "code": "4.2.2",
+      "slug": "cash-control",
+      "title": "الرقابة على النقدية",
+      "order": 2
+    },
+    {
+      "code": "4.2.3",
+      "slug": "liquidity-analysis",
+      "title": "تحليل السيولة",
+      "order": 3
+    },
+    {
+      "code": "4.2.4",
+      "slug": "current-ratio",
+      "title": "نسبة التداول",
+      "order": 4
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+﻿{
+  "code": "7.3",
+  "title": "تحليل هيكل التمويل",
+  "slug": "financing-structure-analysis",
+  "order": 3,
+  "children": [
+    {
+      "code": "7.3.1",
+      "slug": "debt-ratios",
+      "title": "نسب المديونية",
+      "order": 1
+    },
+    {
+      "code": "7.3.2",
+      "slug": "ability-to-meet-obligations",
+      "title": "قدرة المنشأة على الوفاء بالالتزامات",
+      "order": 2
+    }
+  ]
+}

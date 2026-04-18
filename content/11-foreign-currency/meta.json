@@ -1,0 +1,32 @@
+﻿{
+  "code": "11",
+  "title": "العملات الأجنبية",
+  "slug": "foreign-currency",
+  "order": 11,
+  "children": [
+    {
+      "code": "11.1",
+      "slug": "foreign-currency-transactions",
+      "title": "العمليات بالعملة الأجنبية",
+      "order": 1
+    },
+    {
+      "code": "11.2",
+      "slug": "exchange-rate-differences",
+      "title": "فروق أسعار الصرف",
+      "order": 2
+    },
+    {
+      "code": "11.3",
+      "slug": "translation-of-financial-statements",
+      "title": "ترجمة القوائم المالية",
+      "order": 3
+    },
+    {
+      "code": "11.4",
+      "slug": "disclosure-under-ias21",
+      "title": "الإفصاح وفق IAS 21",
+      "order": 4
+    }
+  ]
+}

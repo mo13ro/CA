@@ -1,0 +1,32 @@
+﻿{
+  "code": "5",
+  "title": "المخزون وتكلفة المبيعات",
+  "slug": "inventory-and-cost-of-sales",
+  "order": 5,
+  "children": [
+    {
+      "code": "5.1",
+      "slug": "inventory-in-trading-companies",
+      "title": "المخزون في المنشآت التجارية",
+      "order": 1
+    },
+    {
+      "code": "5.2",
+      "slug": "inventory-in-manufacturing-companies",
+      "title": "المخزون في المنشآت الصناعية",
+      "order": 2
+    },
+    {
+      "code": "5.3",
+      "slug": "inventory-pricing-methods",
+      "title": "طرق تسعير المخزون",
+      "order": 3
+    },
+    {
+      "code": "5.4",
+      "slug": "inventory-analysis",
+      "title": "تحليل المخزون",
+      "order": 4
+    }
+  ]
+}

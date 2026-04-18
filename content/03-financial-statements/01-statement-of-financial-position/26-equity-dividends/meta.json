@@ -1,0 +1,46 @@
+{
+  "code": "3.1.26",
+  "title": "حقوق الملكية - توزيعات الأرباح",
+  "slug": "equity-dividends",
+  "order": 26,
+  "generated_from_prompts_dir": "D:\\الرعيني\\CA\\البرمتات\\البرمتات",
+  "files": [
+    "theory.md",
+    "examples.md",
+    "essay.md",
+    "mistakes.md",
+    "mcq.json"
+  ],
+  "tabs": [
+    {
+      "code": "theory",
+      "title": "الشرح النظري",
+      "type": "markdown",
+      "file": "theory.md"
+    },
+    {
+      "code": "examples",
+      "title": "الأمثلة",
+      "type": "markdown",
+      "file": "examples.md"
+    },
+    {
+      "code": "essay",
+      "title": "أسئلة مقالية",
+      "type": "markdown",
+      "file": "essay.md"
+    },
+    {
+      "code": "mistakes",
+      "title": "أخطاء شائعة",
+      "type": "markdown",
+      "file": "mistakes.md"
+    },
+    {
+      "code": "mcq",
+      "title": "اختيار من متعدد",
+      "type": "quiz",
+      "file": "mcq.json"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+﻿{
+  "code": "10",
+  "title": "الاستثمار والاندماج والقوائم المجمعة",
+  "slug": "investment-merger-and-consolidation",
+  "order": 10,
+  "children": [
+    {
+      "code": "10.1",
+      "slug": "accounting-for-investments",
+      "title": "المحاسبة عن الاستثمارات",
+      "order": 1
+    },
+    {
+      "code": "10.2",
+      "slug": "mergers-and-acquisitions",
+      "title": "الاندماج والاستحواذ",
+      "order": 2
+    },
+    {
+      "code": "10.3",
+      "slug": "consolidated-financial-statements",
+      "title": "القوائم المالية المجمعة",
+      "order": 3
+    }
+  ]
+}

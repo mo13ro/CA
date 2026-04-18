@@ -1,0 +1,14 @@
+﻿{
+  "code": "8.3",
+  "title": "حقوق الملكية في المنشآت غير الهادفة للربح",
+  "slug": "equity-in-non-profit-entities",
+  "order": 3,
+  "children": [
+    {
+      "code": "8.3.1",
+      "slug": "concept-and-presentation",
+      "title": "مفهوم حقوق الملكية وطريقة عرضها",
+      "order": 1
+    }
+  ]
+}

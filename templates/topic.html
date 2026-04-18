@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}{{ topic.title }} | مراجعة مفردات المحاسب القانوني{% endblock %}
+
+{% block content %}
+<div class="content-sticky-shell">
+    <section class="topic-header">
+        <p class="eyebrow">
+            {% if topic.breadcrumbs|length > 1 %}
+                {{ topic.breadcrumbs[:-1] | map(attribute='title') | join(' / ') }}
+            {% else %}
+                مفردة دراسية
+            {% endif %}
+        </p>
+        <h2>
+            {% if topic.code %}<span class="topic-code">{{ topic.code }}</span>{% endif %}
+            {{ topic.title }}
+        </h2>
+        <p class="topic-header__meta">اختر التبويب المناسب للمراجعة أو الانتقال بين الشرح والأمثلة والأسئلة.</p>
+    </section>
+
+    <section class="tabs-strip" aria-label="تبويبات المحتوى">
+        {% for tab in topic.tabs %}
+            <a
+                class="tab-link {% if tab.code == active_tab.code %}is-active{% endif %}"
+                href="{{ url_for('main.item_view', item_path=topic.url_path, tab=tab.code) }}"
+            >
+                {{ tab.title }}
+            </a>
+        {% endfor %}
+    </section>
+</div>
+
+<section class="content-card">
+    {% if rendered_content.type == "markdown" %}
+        <article class="prose">{{ rendered_content.html | safe }}</article>
+    {% elif rendered_content.type == "quiz" %}
+        <div class="quiz-list">
+            {% for item in rendered_content["items"] %}
+                <article class="quiz-card" data-quiz-card data-correct="{{ item.correct }}">
+                    <div class="quiz-card__header">
+                        <span class="quiz-index">سؤال {{ loop.index }}</span>
+                        <h3>{{ item.question }}</h3>
+                    </div>
+
+                    <div class="choices-list">
+                        {% set question_index = loop.index %}
+                        {% for choice in item.choices %}
+                            <label class="choice-row">
+                                <input
+                                    type="radio"
+                                    name="question-{{ question_index }}"
+                                    value="{{ loop.index0 }}"
+                                    data-quiz-choice
+                                >
+                                <span>{{ choice }}</span>
+                            </label>
+                        {% endfor %}
+                    </div>
+
+                    <p class="quiz-result" data-quiz-result>اختر إجابة لعرض النتيجة.</p>
+                    <div class="quiz-explanation" data-quiz-explanation hidden>
+                        <strong>التفسير:</strong>
+                        <span>{{ item.explanation }}</span>
+                    </div>
+                </article>
+            {% endfor %}
+        </div>
+    {% endif %}
+</section>
+{% endblock %}

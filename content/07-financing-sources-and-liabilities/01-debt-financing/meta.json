@@ -1,0 +1,50 @@
+﻿{
+  "code": "7.1",
+  "title": "التمويل بالديون",
+  "slug": "debt-financing",
+  "order": 1,
+  "children": [
+    {
+      "code": "7.1.1",
+      "slug": "loans",
+      "title": "القروض",
+      "order": 1
+    },
+    {
+      "code": "7.1.2",
+      "slug": "bonds",
+      "title": "السندات",
+      "order": 2
+    },
+    {
+      "code": "7.1.3",
+      "slug": "interest",
+      "title": "فوائد القروض والسندات",
+      "order": 3
+    },
+    {
+      "code": "7.1.4",
+      "slug": "issuance",
+      "title": "إصدار السندات",
+      "order": 4
+    },
+    {
+      "code": "7.1.5",
+      "slug": "discount-or-premium",
+      "title": "خصم أو علاوة إصدار السندات",
+      "order": 5
+    },
+    {
+      "code": "7.1.6",
+      "slug": "redemption",
+      "title": "سداد السندات",
+      "order": 6
+    },
+    {
+      "code": "7.1.7",
+      "slug": "finance-lease",
+      "title": "التأجير التمويلي",
+      "order": 7
+    }
+  ]
+}

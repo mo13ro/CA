@@ -1,0 +1,26 @@
+﻿{
+  "code": "8",
+  "title": "حقوق الملكية",
+  "slug": "equity",
+  "order": 8,
+  "children": [
+    {
+      "code": "8.1",
+      "slug": "equity-in-partnerships-and-sole-proprietorships",
+      "title": "حقوق الملكية في شركات الأشخاص والمنشآت الفردية",
+      "order": 1
+    },
+    {
+      "code": "8.2",
+      "slug": "equity-in-joint-stock-companies",
+      "title": "حقوق الملكية في الشركات المساهمة",
+      "order": 2
+    },
+    {
+      "code": "8.3",
+      "slug": "equity-in-non-profit-entities",
+      "title": "حقوق الملكية في المنشآت غير الهادفة للربح",
+      "order": 3
+    }
+  ]
+}

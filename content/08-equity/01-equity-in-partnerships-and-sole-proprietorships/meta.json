@@ -1,0 +1,26 @@
+﻿{
+  "code": "8.1",
+  "title": "حقوق الملكية في شركات الأشخاص والمنشآت الفردية",
+  "slug": "equity-in-partnerships-and-sole-proprietorships",
+  "order": 1,
+  "children": [
+    {
+      "code": "8.1.1",
+      "slug": "capital",
+      "title": "رأس المال",
+      "order": 1
+    },
+    {
+      "code": "8.1.2",
+      "slug": "withdrawals",
+      "title": "السحب",
+      "order": 2
+    },
+    {
+      "code": "8.1.3",
+      "slug": "profit-and-loss-distribution",
+      "title": "توزيع الأرباح والخسائر",
+      "order": 3
+    }
+  ]
+}

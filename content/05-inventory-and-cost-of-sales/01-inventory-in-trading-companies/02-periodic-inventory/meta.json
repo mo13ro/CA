@@ -1,0 +1,38 @@
+﻿{
+  "code": "5.1.2",
+  "title": "الجرد الدوري",
+  "slug": "periodic-inventory",
+  "order": 2,
+  "tabs": [
+    {
+      "code": "theory",
+      "title": "الشرح النظري",
+      "type": "markdown",
+      "file": "theory.md"
+    },
+    {
+      "code": "examples",
+      "title": "الأمثلة",
+      "type": "markdown",
+      "file": "examples.md"
+    },
+    {
+      "code": "essay",
+      "title": "أسئلة مقالية",
+      "type": "markdown",
+      "file": "essay.md"
+    },
+    {
+      "code": "mistakes",
+      "title": "أخطاء شائعة",
+      "type": "markdown",
+      "file": "mistakes.md"
+    },
+    {
+      "code": "mcq",
+      "title": "اختيار من متعدد",
+      "type": "quiz",
+      "file": "mcq.json"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+﻿{
+  "code": "5.4",
+  "title": "تحليل المخزون",
+  "slug": "inventory-analysis",
+  "order": 4,
+  "children": [
+    {
+      "code": "5.4.1",
+      "slug": "inventory-turnover",
+      "title": "معدل دوران المخزون",
+      "order": 1
+    },
+    {
+      "code": "5.4.2",
+      "slug": "gross-profit-ratio",
+      "title": "نسبة مجمل الربح",
+      "order": 2
+    }
+  ]
+}
